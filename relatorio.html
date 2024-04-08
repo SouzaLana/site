@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/relatorio.css">
+</head>
+
+<body>
+  <header>
+    <!-- <a href="./layout.html" id="logo">Logo</a> -->
+    <img id="logo" src="imagens/logo3_16_151155.png" alt="logo">
+
+    <button id="openMenu">&#9776;</button>
+
+    <!-- Agrupa links de navegação no site. -->
+    <nav id="menu">
+
+      <button id="closeMenu">X</button>
+
+      <a href="#">Início</a>
+      <a href="pagina_principal.html">Sair</a>
+    </nav>
+  </header>
+  <main>
+    <div class="principal">
+      <h1>Relatório</h1>
+      <form action="seu_script_de_envio.php" method="post">
+        <!-- <label for="de">De:</label > -->
+        <input type="email" id="de" name="de" placeholder="De:" required>
+
+        <!-- <label for="para">Para:</label> -->
+        <input type="email" id="para" name="para" placeholder="Para:" required>
+
+        <!-- <label for="relatorio">Escrever Relatório:</label> -->
+        <textarea id="relatorio" name="relatorio" rows="10" placeholder="Escrever relatório:" required></textarea>
+
+        <input type="submit" value="Enviar Relatório">
+      </form>
+    </div>
+  </main>
+  <footer>
+    <img src="imagens/instagram.png" alt="instagram">
+    <a href="">@usuário</a>
+    <img src="imagens/facebook.png" alt="facebook">
+    <a href="">@usuário</a>
+  </footer>
+
+  <!-- Importação do arquivo JavaScript. -->
+  <script type="text/javascript" src="java/script.js"></script>
+</body>
+
+</html>

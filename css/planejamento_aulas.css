@@ -1,0 +1,254 @@
+/* .container{
+    width: 60%;
+    height: 85%;
+    overflow-y: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.5);
+}
+
+button{
+    border-radius: 5px;
+}
+
+.b2{
+    position: absolute;
+    bottom: 3%;
+    left: 15%;
+    cursor: pointer;
+    background-color: #E4CEC8;
+    color: white;
+    border-color: white;
+    width: 350px;
+    height: 45px;
+    padding: 7px 10px;
+}
+
+.b3{
+    position: absolute;
+    bottom: 3%;
+    right: 15%;
+    cursor: pointer;
+    background-color: #E4CEC8;
+    color: white;
+    border-color: white;
+    width: 350px;
+    height: 45px;
+    padding: 7px 10px;
+}
+
+table{
+    border: 1px solid #e4cec8;
+    width: 95%;
+    height: 85%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+th, td{
+    border: 1px solid #e4cec8;
+}
+
+th .t1, th .t2{
+    font-size: 28px;
+    color: #e4cec8;
+    font-weight: bold;
+}
+
+th .t1{
+    text-align: center;
+}
+
+th .t2{
+    text-align: left;
+}
+
+th:nth-child(1), th:nth-child(2), th:nth-child(3){
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+td{
+    color: #e4cec8;
+    text-align: center;
+    padding: 10px ;
+    word-wrap: break-word;
+    max-width: 80px;
+    min-width: 10px;
+} */
+
+/* .container {
+    width: 60%;
+    height: 85%;
+    overflow-y: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    border-radius: 5px;
+}
+
+.b2 {
+    position: absolute;
+    bottom: 3%;
+    left: 15%;
+    cursor: pointer;
+    background-color: #E4CEC8;
+    color: white;
+    border-color: white;
+    width: 350px;
+    height: 45px;
+    padding: 7px 10px;
+}
+
+.b3 {
+    position: absolute;
+    bottom: 3%;
+    right: 15%;
+    cursor: pointer;
+    background-color: #E4CEC8;
+    color: white;
+    border-color: white;
+    width: 350px;
+    height: 45px;
+    padding: 7px 10px;
+}
+
+table {
+    border: 1px solid #e4cec8;
+    width: 95%;
+    height: 85%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+th,
+td {
+    border: 1px solid #e4cec8;
+    font-size: 28px;
+    color: #e4cec8;
+    text-align: center;
+    padding: 10px;
+}
+
+th .t1,
+th .t2 {
+    font-size: 28px;
+    color: #e4cec8;
+    font-weight: bold;
+}
+
+th .t1 {
+    text-align: center;
+}
+
+th .t2 {
+    text-align: left;
+}
+
+th:nth-child(-n+3){
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+td {
+    word-wrap: break-word;
+    max-width: 80px;
+    min-width: 10px;
+} */
+
+.container {
+  width: 60%;
+  height: 75%;
+  overflow-y: auto;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.container2 {
+  width: 60%;
+  height: 8.5%;
+  overflow-y: auto;
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+  transform: translate(-50%, -7%);
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.5);
+}
+
+table {
+  border: 1px solid #e4cec8;
+  width: 85%;
+  height: 15%;
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+}
+
+th,
+td {
+  font-size: 28px;
+  color: #e4cec8;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #e4cec8;
+}
+
+th {
+  background-color: white;
+  /* Cor de fundo para o cabeçalho */
+  font-weight: bold;
+  /* Opcional: torna o texto do cabeçalho em negrito */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.b2,
+.b3 {
+  position: absolute;
+  bottom: 15%;
+  cursor: pointer;
+  background-color: #E4CEC8;
+  color: white;
+  border-color: white;
+  width: 350px;
+  height: 45px;
+  padding: 7px 10px;
+}
+
+.b2 {
+  left: 15%;
+}
+
+.b3 {
+  right: 15%;
+}

@@ -1,0 +1,78 @@
+input {
+  padding: 15px 100px;
+  color: #F2D9D9;
+  border: 1px solid #ccc;
+  /* Adicione uma borda para os inputs */
+  border-radius: 5px;
+  /* Adicione uma borda arredondada */
+}
+
+.form_inp {
+  display: flex;
+  flex-direction: column;
+  /* Empilha os elementos verticalmente */
+  align-items: center;
+  /* Centraliza os elementos horizontalmente */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.input-textbox {
+  text-align: center;
+  margin: 35% auto;
+}
+
+.input-textbox p {
+  margin-bottom: 30px;
+}
+
+.t1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 52px;
+  color: #E4CEC8;
+  display: block;
+  margin-bottom: 60px;
+}
+
+input.b1 {
+  background-color: #E4CEC8;
+  color: white;
+  cursor: pointer;
+}
+
+/* button{
+  background-color: #E4CEC8;
+  color: white;
+  cursor: pointer;
+  padding: 15px 100px;
+  border: white;
+  border-radius: 5px;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.5);
+} */
+
+button {
+  background-color: #E4CEC8;
+  color: white;
+  cursor: pointer;
+  padding: 5px 35px;
+  border: white;
+  border-radius: 5px;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.5);
+}
+
+main {
+  grid-area: main;
+  background-size: cover;
+  background-repeat: repeat-x;
+  background-position: right;
+  background-attachment: scroll;
+}
+
+/* 150px 600px */

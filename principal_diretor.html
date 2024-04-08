@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/principal_diretor.css">
+</head>
+
+<body>
+  <header>
+    <!-- <a href="./layout.html" id="logo">Logo</a> -->
+    <img id="logo" src="imagens/logo3_16_151155.png" alt="logo">
+
+    <button id="openMenu">&#9776;</button>
+
+    <!-- Agrupa links de navegação no site. -->
+    <nav id="menu">
+
+      <button id="closeMenu">X</button>
+
+      <a href="principal_diretor.html">Início</a>
+      <a href="perfil_secretario.html">Perfil</a>
+      <a href="pagina_principal.html">Sair</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div class="card">
+        <h2>Cursos</h2>
+        <a class="bat" href="curso_bateria.html">Bateria</a>
+        <a class="can" href="curso_canto.html">Canto</a>
+        <a class="gui" href="curso_guitarra.html">Guitarra</a>
+        <a class="sax" href="curso_saxofone.html">Saxofone</a>
+        <a class="tec" href="curso_teclado.html">Teclado</a>
+        <!-- <form action="">
+                    <select class="bat" name="bateria" id="bateria">
+                        <option value="0" disabled selected>Bateria</option>
+                        <option value="prof_b1">Professor 1</option>
+                        <option value="prof_b2">Professor 2</option>
+                        <option value="prof_b3">Professor 3</option>
+                    </select>
+                    <select class="can" name="canto" id="canto">
+                        <option value="0" disabled selected>Canto</option>
+                        <option value="prof_c1">Professor 1</option>
+                        <option value="prof_c2">Professor 2</option>
+                        <option value="prof_c3">Professor 3</option>
+                    </select>
+                    <select class="gui" name="guitarra" id="guitarra">
+                        <option value="0" disabled selected>Guitarra</option>
+                        <option value="prof_g1">Professor 1</option>
+                        <option value="prof_g2">Professor 2</option>
+                        <option value="prof_g3">Professor 3</option>
+                    </select>
+                    <select class="sax" name="saxofone" id="saxofone">
+                        <option value="0" disabled selected>Saxofone</option>
+                        <option value="prof_s1">Professor 1</option>
+                        <option value="prof_s2">Professor 2</option>
+                        <option value="prof_s3">Professor 3</option>
+                    </select>
+                    <select class="tec" name="teclado" id="teclado">
+                        <option value="0" disabled selected>Teclado</option>
+                        <option value="prof_t1">Professor 1</option>
+                        <option value="prof_t2">Professor 2</option>
+                        <option value="prof_t3">Professor 3</option>
+                    </select>
+                </form> -->
+      </div>
+    </section>
+    <section>
+      <div class="card2">
+        <div>
+          <h3>Funcionários:</h3>
+        </div>
+        <div>
+          <ul>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_professor2.html">Funcionário</a></li>
+            <li><a href="perfil_secretario2.html">Funcionário</a></li>
+            <li><a href="perfil_secretario2.html">Funcionário</a></li>
+            <li><a href="perfil_secretario2.html">Funcionário</a></li>
+            <li><a href="perfil_secretario2.html">Funcionário</a></li>
+            <li><a href="perfil_secretario2.html">Funcionário</a></li>
+            <li><a href="perfil_secretario2.html">Funcionário</a></li>
+            <li><a href="perfil_secretario2.html">Funcionário</a></li>
+            <li><a href="perfil_secretario2.html">Funcionário</a></li>
+            <li><a href="perfil_secretario2.html">Funcionário</a></li>
+            <li><a href="perfil_secretario2.html">Funcionário</a></li>
+            <li><a href="perfil_secretario2.html">Funcionário</a></li>
+            <li><a href="perfil_secretario2.html">Funcionário</a></li>
+            <li><a href="perfil_secretario2.html">Funcionário</a></li>
+            <li><a href="perfil_secretario2.html">Funcionário</a></li>
+            <li><a href="perfil_secretario2.html">Funcionário</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="card3">
+        <p>Mensagens:</p>
+
+        <div class="borda"></div>
+      </div>
+    </section>
+    <section>
+      <div class="card4">
+        <p><button class="btn2" onclick="mostrarTelaAvisos()">Enviar avisos</button></p>
+      </div>
+
+      <div id="telaAvisos" class="tela-avisos">
+        <form action="">
+          <select class="aviso" name="avisos" id="avisos">
+            <option value="0" disabled selected>Aviso:</option>
+            <option value="A1">Conteúdo ilógico</option>
+            <option value="A2">Atraso de envio</option>
+          </select>
+          <form action="">
+            <select class="para" name="para" id="para">
+              <option value="0" disabled selected>Para:</option>
+              <option value="prof_b1">Professor 1</option>
+              <option value="prof_b2">Professor 2</option>
+              <option value="prof_b3">Professor 3</option>
+              <option value="prof_c1">Professor 4</option>
+              <option value="prof_c2">Professor 5</option>
+              <option value="prof_c3">Professor 6</option>
+              <option value="prof_g1">Professor 7</option>
+              <option value="prof_g2">Professor 8</option>
+              <option value="prof_g3">Professor 9</option>
+              <option value="prof_s1">Professor 10</option>
+              <option value="prof_s2">Professor 11</option>
+              <option value="prof_s3">Professor 12</option>
+              <option value="prof_t1">Professor 13</option>
+              <option value="prof_t2">Professor 14</option>
+              <option value="prof_t3">Professor 15</option>
+            </select>
+
+            <textarea class="motivo" name="descricao" id="descricao" cols="30" rows="10"
+              placeholder="Motivos:"></textarea>
+            <button class="btn4" onclick="fecharTelaAvisos()">X</button>
+            <p><input class="btn6" type="submit" value="Enviar"></p>
+            <p><input class="btn5" type="reset" value="Limpar"></p>
+          </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <img src="imagens/instagram.png" alt="instagram">
+    <a href="">@usuário</a>
+    <img src="imagens/facebook.png" alt="facebook">
+    <a href="">@usuário</a>
+  </footer>
+
+  <!-- Importação do arquivo JavaScript. -->
+  <script type="text/javascript" src="java/script.js"></script>
+  <script type="text/javascript" src="java/principal_secretario.js"></script>
+</body>
+
+</html>
